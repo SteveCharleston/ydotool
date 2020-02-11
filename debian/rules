@@ -11,8 +11,3 @@ include /usr/share/dpkg/buildflags.mk
 
 %:
 	dh $@
-
-override_dh_auto_install:
-	dh_auto_install
-	rm -rf $(TMP)/usr/lib
-	rm $(TMP)/usr/bin/ydotoold

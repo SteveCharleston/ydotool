@@ -18,7 +18,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libevdev-
-Description: Generic command-line automation tool
+Description: Command-line automation tool - cli
  Generic Linux command-line automation tool
  .
  ydotool works differently from xdotool. xdotool
@@ -30,3 +30,25 @@ Description: Generic command-line automation tool
  it will take some time for your graphical environment
  (X11/Wayland) to recognize and enable the virtual
  input device. (Usually done by udev)
+ .
+ This package contains the command-line utility.
+
+Package: ydotoold
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         libevdev-
+Description: Command-line automation tool - daemon
+ Generic Linux command-line automation tool
+ .
+ ydotool works differently from xdotool. xdotool
+ sends X events directly to X server, while ydotool
+ uses the uinput framework of Linux kernel to emulate
+ an input device.
+ .
+ When ydotool runs and creates an virtual input device,
+ it will take some time for your graphical environment
+ (X11/Wayland) to recognize and enable the virtual
+ input device. (Usually done by udev)
+ .
+ This package contains the command-line daemon.

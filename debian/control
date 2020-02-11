@@ -6,7 +6,8 @@ Build-Depends: debhelper (>=12),
                cmake,
                pkg-config,
                libevdevplus-dev,
-               libuinputplus-dev
+               libuinputplus-dev,
+               libboost-program-options-dev
 Standards-Version: 4.5.0
 Homepage: https://github.com/ReimuNotMoe/ydotool
 Vcs-Git: https://salsa.debian.org/debian/ydotool.git

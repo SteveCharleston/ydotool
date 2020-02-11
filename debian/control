@@ -1,5 +1,5 @@
 Source: ydotool
-Section: libs
+Section: utils
 Priority: optional
 Maintainer: Alexandre Viau <aviau@debian.org>
 Build-Depends: debhelper (>=12),
@@ -15,7 +15,7 @@ Vcs-Browser: https://salsa.debian.org/debian/ydotool
 
 Package: ydotool
 Architecture: any
-Section: libdevel
+Section: utils
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libevdev-

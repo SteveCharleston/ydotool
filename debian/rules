@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
+PACKAGE=$(shell dh_listpackages)
+TMP=$(CURDIR)/debian/$(PACKAGE)
+
 # Hardening
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUILDFLAGS = 1
@@ -8,3 +11,8 @@ include /usr/share/dpkg/buildflags.mk
 
 %:
 	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -rf $(TMP)/usr/lib
+	rm $(TMP)/usr/bin/ydotoold

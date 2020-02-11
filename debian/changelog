@@ -1,3 +1,9 @@
+ydotool (0.1.8-2) unstable; urgency=medium
+
+  * Improve ydotoold long description.
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 11 Feb 2020 17:27:57 -0500
+
 ydotool (0.1.8-1) unstable; urgency=medium
 
   * Initial release. (Closes: #951138)

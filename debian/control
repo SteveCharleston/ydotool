@@ -50,4 +50,4 @@ Description: Command-line automation tool - daemon
  (X11/Wayland) to recognize and enable the virtual
  input device. (Usually done by udev)
  .
- This package contains the command-line daemon.
+ This package contains the daemon.

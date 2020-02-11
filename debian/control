@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Alexandre Viau <aviau@debian.org>
 Build-Depends: debhelper (>=12),
                cmake,
+               dh-exec,
                pkg-config,
                libevdevplus-dev,
                libuinputplus-dev,

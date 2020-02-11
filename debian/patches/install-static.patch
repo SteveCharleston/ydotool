@@ -1,0 +1,9 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -82,4 +82,4 @@
+ 
+ install(TARGETS ydotool_library ydotool_library_static DESTINATION lib)
+ #install(TARGETS mousemove key click type recorder DESTINATION lib/ydotool)
+-install(TARGETS ydotoold ydotool_client DESTINATION bin)
+\ No newline at end of file
++install(TARGETS ydotoold ydotool_client ydotool_client_static DESTINATION bin)

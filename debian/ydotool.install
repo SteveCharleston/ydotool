@@ -1,1 +1,2 @@
-usr/bin/ydotool
+#!/usr/bin/dh-exec
+usr/bin/ydotool_static => usr/bin/ydotool

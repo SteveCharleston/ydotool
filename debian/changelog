@@ -1,0 +1,5 @@
+ydotool (0.1.8-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #951138)
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 11 Feb 2020 10:28:44 -0500

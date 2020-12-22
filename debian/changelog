@@ -1,3 +1,9 @@
+ydotool (0.1.8-3) UNRELEASED; urgency=medium
+
+  * d/control: Rules-Requires-Root: no.
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 22 Dec 2020 12:39:40 -0500
+
 ydotool (0.1.8-2) unstable; urgency=medium
 
   * Improve ydotoold long description.

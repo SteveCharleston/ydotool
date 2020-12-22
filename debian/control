@@ -6,7 +6,7 @@ Build-Depends: debhelper (>=12),
                cmake,
                dh-exec,
                pkg-config,
-               libevdevplus-dev,
+               libevdevplus-dev (>=0.1.1-2),
                libuinputplus-dev,
                libboost-program-options-dev
 Standards-Version: 4.5.0

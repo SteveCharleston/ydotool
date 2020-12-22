@@ -1,10 +1,10 @@
-ydotool (0.1.8-3) UNRELEASED; urgency=medium
+ydotool (0.1.8-3) unstable; urgency=medium
 
   * d/control: Rules-Requires-Root: no.
   * depend on livevdevplus >= 0.1.1-2. (Closes: #959905)
   * d/rules: -DCMAKE_POSITION_INDEPENDENT_CODE=ON.
 
- -- Alexandre Viau <aviau@debian.org>  Tue, 22 Dec 2020 12:39:40 -0500
+ -- Alexandre Viau <aviau@debian.org>  Tue, 22 Dec 2020 12:53:31 -0500
 
 ydotool (0.1.8-2) unstable; urgency=medium
 

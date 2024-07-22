@@ -1,3 +1,10 @@
+ydotool (1.0.4-1) unstable; urgency=medium
+
+  [ SteveCharleston ]
+  * New upstream version 1.0.4
+
+ -- Steven Schalhorn <steven@schalhorn.org>  Mon, 22 Jul 2024 17:40:28 +0200
+
 ydotool (0.1.8-3) unstable; urgency=medium
 
   * d/control: Rules-Requires-Root: no.

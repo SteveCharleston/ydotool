@@ -144,12 +144,9 @@ int main(int argc, char **argv) {
 	};
 
 	char *env_ys = getenv("YDOTOOL_SOCKET");
-	char *env_xrd = getenv("XDG_RUNTIME_DIR");
 
 	if (env_ys) {
 		snprintf(sa.sun_path, sizeof(sa.sun_path)-1, "%s", env_ys);
-	} else if (env_xrd){
-		snprintf(sa.sun_path, sizeof(sa.sun_path)-1, "%s/.ydotool_socket", env_xrd);
 	} else {
 		snprintf(sa.sun_path, sizeof(sa.sun_path)-1, "%s", "/tmp/.ydotool_socket");
 	}
